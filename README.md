@@ -1,52 +1,55 @@
-# Arduino Başlangıç Projeleri
+# Arduino Uno & Raspberry Pi Pico Başlangıç Projeleri
 
-Bu repository, **Arduino’ya yeni başlayanlar** için hazırlanmış temel uygulamaları içeren bir föyü kapsamaktadır.  
-Projeler, donanım bileşenlerini tanımayı ve Arduino programlama mantığını kavratmayı amaçlamaktadır.
+Bu repository, **Arduino Uno** ve **Raspberry Pi Pico** kullanılarak geliştirilen,
+**gömülü sistemlere yeni başlayanlar** için hazırlanmış temel uygulamaları içeren bir föyü kapsamaktadır.
 
-📄 Detaylı anlatımlar Word ve dosyasında yer almaktadır.
+Projeler; dijital ve analog giriş/çıkışlar, sensör kullanımı ve ekran uygulamaları gibi
+temel konuların kavranmasını amaçlamaktadır.
+
+📄 Uygulamaların detaylı anlatımı Word ve PDF dosyalarında yer almaktadır.
 
 ---
 
 ## İçerik
 
-### ÖRNEK 1: Arduino ile LED Devresi
-- Arduino çıkış pinleri kullanılarak LED yakma
-- Dijital çıkış (HIGH / LOW) kavramı
+### ÖRNEK 1: Arduino Uno / Raspberry Pi Pico ile LED Devresi
+- Dijital çıkış pinleri kullanılarak LED yakma
+- GPIO pin mantığı
 - Direnç kullanımının önemi
 
 ### Örnek 2: Buton ile LED Yakma
 - Dijital giriş kullanımı
-- Buton okuma (INPUT)
-- Basit koşullu kontrol yapıları
+- Buton okuma
+- Koşullu ifadeler ile kontrol
 
 ### Örnek 3: LED’ler ile Karaşimşek Uygulaması
-- Birden fazla LED kullanımı
-- Döngüler (for)
-- Zamanlama mantığı (delay)
+- Birden fazla LED kontrolü
+- Döngü yapıları
+- Zamanlama mantığı
 
 ### Örnek 4: LDR Kullanımı
 - Analog giriş kavramı
-- Işık şiddetine bağlı kontrol
+- Ortam ışığına bağlı kontrol
 - Sensör verisi okuma
 
 ### Örnek 5: HC-SR04 Mesafe Sensörü Kullanımı
 - Ultrasonik mesafe ölçümü
 - Trigger ve Echo pinlerinin kullanımı
-- Mesafeye bağlı işlem yapma
+- Ölçülen mesafeye bağlı işlem yapma
 
 ### Örnek 6: Potansiyometre Kullanımı
-- Analog okuma (analogRead)
+- Analog okuma
 - Değişken direnç ile kontrol
 - Okunan değerin işlenmesi
 
 ### Örnek 7: RGB LED ile Potansiyometre Kullanımı
 - RGB LED kontrolü
-- PWM sinyali (analogWrite)
+- PWM sinyali kullanımı
 - Renk karışımı mantığı
 
 ### Örnek 8: LCD Ekrana Yazı Yazma
-- LCD ekran bağlantısı
-- LiquidCrystal kütüphanesi
+- 16x2 LCD ekran bağlantısı
+- LCD kütüphanesi kullanımı
 - Metin gösterimi
 
 ### Örnek 9: LCD ile HC-SR04 Kullanımı
@@ -57,8 +60,9 @@ Projeler, donanım bileşenlerini tanımayı ve Arduino programlama mantığın�
 ---
 
 ## Kullanılan Donanımlar
-- Arduino (Uno / Nano)
-- LED, RGB LED
+- **Arduino Uno**
+- **Raspberry Pi Pico**
+- LED ve RGB LED
 - Dirençler
 - Buton
 - LDR
@@ -69,8 +73,10 @@ Projeler, donanım bileşenlerini tanımayı ve Arduino programlama mantığın�
 ---
 
 ## Amaç
-Bu çalışma, Arduino ve temel elektronik konularını **uygulama odaklı** olarak öğretmeyi hedeflemektedir.  
-Ders, laboratuvar ve bireysel çalışma amaçlı kullanılabilir.
+Bu çalışma, Arduino Uno ve Raspberry Pi Pico platformları üzerinden
+**temel elektronik ve gömülü yazılım kavramlarını** uygulamalı olarak öğretmeyi amaçlamaktadır.
+
+Ders, laboratuvar ve bireysel öğrenme amaçlı kullanılabilir.
 
 ---
 
