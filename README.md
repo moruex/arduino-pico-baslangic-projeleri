@@ -3,7 +3,7 @@
 Bu repository, **Arduino’ya yeni başlayanlar** için hazırlanmış temel uygulamaları içeren bir föyü kapsamaktadır.  
 Projeler, donanım bileşenlerini tanımayı ve Arduino programlama mantığını kavratmayı amaçlamaktadır.
 
-📄 Detaylı anlatımlar Word ve PDF dosyalarında yer almaktadır.
+📄 Detaylı anlatımlar Word ve dosyasında yer almaktadır.
 
 ---
 
